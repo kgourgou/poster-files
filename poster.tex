@@ -1,0 +1,64 @@
+\documentclass{beamer}
+
+\mode<presentation>{ 
+   \usetheme{CambridgeUS} 
+}
+ 
+\usepackage{amsmath,amsthm, amssymb}
+\usepackage{graphicx}
+\usepackage{textpos}
+\usefonttheme[onlymath]{serif}
+\boldmath
+
+\usepackage[orientation=portrait,size=a0,scale=1.4,debug]{beamerposter}                       % 
+
+\title[Poster title]
+{
+\parbox{.40\textwidth}{\includegraphics[height=4cm]{images/wordmark1_blk-maroon.jpg}\hfill}
+\parbox{.5\textwidth}{This is a title.}
+}
+\author[Author Names]{Author names go here.}
+\institute[UMass Amherst]{University of Massachussets, Amherst}
+\date{Current date.}
+
+\beamertemplategridbackground[1cm]
+   
+\begin{document}
+
+\begin{frame}[t]{}
+
+\begin{beamercolorbox}{}
+\maketitle
+\end{beamercolorbox}
+\vskip 50mm
+
+\begin{columns}[t]
+	
+	\begin{column}{.45\linewidth}
+	
+		\begin{block}{Title of block 1}
+			hola!
+		\end{block}
+		
+		\begin{block}{Title of block 2}
+		content...
+		\end{block}
+	
+		\begin{block}{Title of block 3}
+		content...
+		\end{block}
+		
+	\end{column}
+	
+	\begin{column}{.45\linewidth}
+		
+		\begin{block}{Title of block 4}
+		content...
+		\end{block}
+	
+	\end{column}
+	
+\end{columns}
+\end{frame}
+ 
+\end{document}
